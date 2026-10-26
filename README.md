@@ -47,7 +47,7 @@
 
 ```bash
 python -m venv venv
-venv\Scripts\activate        # Windows
+source venv/bin/activate     # Windows: venv\Scripts\activate
 pip install -r requirements.txt
 jupyter notebook
 ```
@@ -74,4 +74,4 @@ jupyter notebook
 
 ## Автор
 
-igork
+Куценко Игорь — [@igr43](https://github.com/igr43)
